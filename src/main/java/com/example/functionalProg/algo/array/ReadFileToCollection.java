@@ -28,6 +28,5 @@ public class ReadFileToCollection {
         System.out.println("File Size: " + list.size());
         list.stream()
                 .forEach(System.out::println);
-
     }
 }
